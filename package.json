@@ -1,0 +1,18 @@
+{
+  "name": "nodejs_pr1_logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gen": "node generator/index.js",
+    "analyze": "node analyzer/index.js",
+    "analyze:error": "node analyzer/index.js --type error",
+    "analyze:success": "node analyzer/index.js --type success",
+    "analyze:info": "node analyzer/index.js --type info",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
